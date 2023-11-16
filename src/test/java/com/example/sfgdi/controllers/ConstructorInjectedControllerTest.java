@@ -12,6 +12,7 @@ class ConstructorInjectedControllerTest {
 
     @BeforeEach
     void setUp() {
+
         controller = new ConstructorInjectedController(new GreetingsServiceImpl());
     }
 

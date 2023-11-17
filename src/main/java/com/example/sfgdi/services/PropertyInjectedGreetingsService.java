@@ -1,12 +1,11 @@
 package com.example.sfgdi.services;
 
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service
-public class GreetingsServiceImpl implements GreetingsService {
+public class PropertyInjectedGreetingsService implements GreetingsService {
     @Override
     public String sayGreeting() {
-        return "Hello World!";
+        return "Hello World! - property";
     }
 }
